@@ -1,3 +1,8 @@
+variable "api_id" {
+  description = "The API ID for the GraphQL API for the DataSource."
+  type        = "string"
+}
+
 variable "dead_letter_arn" {
   description = "The arn for the SNS topic that handles dead letters"
   type        = "string"
