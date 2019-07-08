@@ -12,3 +12,4 @@ data "aws_iam_policy_document" "appsync_stepfunctions_resolver" {
     sid = "DescribeStopExecutionStepFunctions"
   }
 }
+
