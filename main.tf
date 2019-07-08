@@ -9,11 +9,10 @@ module "appsync_stepfunctions_resolver" {
     aws_iam_policy.appsync_stepfunctions_resolver.arn,
   ]
 
-  policy_arns_count = 1
   runtime           = "python3.7"
   source            = "QuiNovas/lambdalambdalambda/aws"
   timeout           = 30
-  version           = "3.0.0"
+  version           = "3.0.1"
 }
 
 resource "aws_iam_policy" "appsync_stepfunctions_resolver" {
